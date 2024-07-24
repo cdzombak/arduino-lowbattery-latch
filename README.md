@@ -8,7 +8,7 @@ I wrote this to retrofit into my [Ego battery based 12 volt power supply](https:
 - Check the battery level comparator every second and shut off the main relay if the battery's voltage is low 5 seconds in a row
 - Illuminate a LED when the battery is low
 - Once in the "low battery" state, put the Arduino into low power mode
-- Once in the "low battery" state, stay there -- the main relay and Arduino remain off until power is reset
+- Once in the "low battery" state, stay there; the main relay and Arduino remain off until power is reset
 
 ## Hardware
 
