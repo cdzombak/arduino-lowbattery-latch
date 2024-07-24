@@ -10,7 +10,17 @@ I wrote this to retrofit into my [Ego battery based 12 volt power supply](https:
 - Once in the "low battery" state, put the Arduino into low power mode
 - Once in the "low battery" state, stay there -- the main relay and Arduino remain off until power is reset
 
-## Hardware & Circuitry
+## Hardware
+
+This runs on an [Arduino Nano Every](https://store.arduino.cc/products/arduino-nano-every). I chose this due to its combination of:
+
+- 5V supply & GPIO
+- small physical size
+- low power consumption
+- adequate GPIO pins
+- ADC for possible future improved battery level monitoring
+
+## Circuitry
 
 TK
 
