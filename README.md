@@ -22,7 +22,9 @@ This runs on an [Arduino Nano Every](https://store.arduino.cc/products/arduino-n
 
 ## Circuitry
 
-TK
+![battery monitor circuit schematic revised july 2024](https://github.com/user-attachments/assets/cbeb4adc-0153-4594-9457-42cf2cc07295)
+
+The odd comparator + microcontroller setup is simply because this was the easiest way to retrofit the Ardunio relay controller into [the original design](https://www.dzombak.com/blog/2024/04/The-12v-portable-power-supply-Ego-needs-to-make.html).
 
 ## License
 
