@@ -14,7 +14,7 @@ I wrote this to retrofit into my [Ego battery based 12 volt power supply](https:
 
 This runs on an [Arduino Nano Every](https://store.arduino.cc/products/arduino-nano-every). I chose this due to its combination of:
 
-- 5V supply & GPIO
+- 5V supply & GPIO (meaning it's trivially compatible with my original circuit)
 - small physical size
 - low power consumption
 - adequate GPIO pins
@@ -22,9 +22,17 @@ This runs on an [Arduino Nano Every](https://store.arduino.cc/products/arduino-n
 
 ## Circuitry
 
-![battery monitor circuit schematic revised july 2024](https://github.com/user-attachments/assets/cbeb4adc-0153-4594-9457-42cf2cc07295)
+![battery monitor circuit schematic revised august 2024]([https://github.com/user-attachments/assets/cbeb4adc-0153-4594-9457-42cf2cc07295](https://www.dzombak.com/img/blog/2024/ego-12v-supply-ssr.png))
 
-The odd comparator + microcontroller setup is simply because this was the easiest way to retrofit the Ardunio relay controller into [the original design](https://www.dzombak.com/blog/2024/04/The-12v-portable-power-supply-Ego-needs-to-make.html).
+Notes:
+
+- The odd comparator + microcontroller setup is simply because this was the easiest way to retrofit the Ardunio relay controller into [the original design](https://www.dzombak.com/blog/2024/04/The-12v-portable-power-supply-Ego-needs-to-make.html).
+- The pull-up resistor marked `*` indicates I don't remember what value I used here; just pick something appropriate, maybe around 20 kΩ, based on your relay's datasheet and the desire to minimize power consumption.
+
+## See Also
+
+- [The 12v portable power supply Ego needs to make *(April 2024)*](https://www.dzombak.com/blog/2024/04/The-12v-portable-power-supply-Ego-needs-to-make.html)
+- [Improved low-battery shutoff for my DIY Ego-powered 12V supply *(September 2024)*](https://www.dzombak.com/blog/2024/09/Improved-low-battery-shutoff-for-my-DIY-Ego-powered-12V-supply.html)
 
 ## License
 
