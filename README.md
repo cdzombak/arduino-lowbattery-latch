@@ -22,7 +22,7 @@ This runs on an [Arduino Nano Every](https://store.arduino.cc/products/arduino-n
 
 ## Circuitry
 
-![battery monitor circuit schematic revised august 2024]([https://github.com/user-attachments/assets/cbeb4adc-0153-4594-9457-42cf2cc07295](https://www.dzombak.com/img/blog/2024/ego-12v-supply-ssr.png))
+<img width="1617" alt="battery monitor circuit schematic revised august 2024" src="https://github.com/user-attachments/assets/f00ca25b-48b2-4b1e-a3ff-80336e05f6c2">
 
 Notes:
 
